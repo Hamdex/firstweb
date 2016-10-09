@@ -1,0 +1,136 @@
+a.proj
+{
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 20px;
+}
+a
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+a:link
+{
+	text-decoration:none;
+    color:white;
+}
+a:visited
+{
+	text-decoration:none;
+	color:white;
+}
+a:hover,a:focus,a:active
+{
+	text-decoration:underline;
+	color:white;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url(bkg.jpg);
+    background-repeat: repeat;
+    margin: 0:
+}
+h1 {
+    color:rgb(106, 154, 255);
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-size:37px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+h2 {
+    color:rgb(106, 154, 255);
+    text-align: left;
+    font-family: "Century Gothic", serif;
+    font-size:25px;
+    margin-top:0px;
+    margin-bottom:20px;
+    font-style: normal;
+    text-indent: 30px;
+}
+p {
+    color:rgb(231, 239, 255);
+    font-family: 'Abhaya Libre', serif;
+    text-align: left;
+    font-size:20px;
+    margin-top:0px;
+    text-decoration: none;
+    text-indent: 10px;
+}
+p.footer {
+    color:rgb(106, 154, 255);
+    font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
+    text-align: center;
+    font-size:10px;
+    margin-top:10px;
+    text-indent: 0px;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+hr  { 
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: rosybrown;
+}
+hr.two  { 
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #99bbff;
+}
+footer {
+    width: 100%;
+    border-top: 2px solid rgb(106, 154, 255);
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+    height: 100%;
+    
+}
+div {
+    margin-left:20%;
+    padding:1px 16px;
+    height:1000px;"
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 20%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Century Gothic", sans-serif;
+}
+
+li a.active {
+    background-color: rgb(106, 154, 255);
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
